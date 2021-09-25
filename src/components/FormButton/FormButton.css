@@ -1,0 +1,18 @@
+.form-btn input {
+    margin: 0.3rem;
+    padding: .5rem 2rem;
+    border-radius: 5rem;
+    background: linear-gradient(90deg, #ff9966, #ff5e62);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.form-btn input:disabled {
+    background: linear-gradient(90deg, #ffdece, #ffcece);
+    color: #979696;
+}

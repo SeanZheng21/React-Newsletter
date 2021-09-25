@@ -1,0 +1,32 @@
+.form-group {
+    padding: 0.5rem;
+}
+
+::placeholder {
+    color: #d1d1d1;
+    font-size: 1rem;
+}
+
+.form-group input {
+    padding: 0.6rem 0.6rem;
+    width: 80%;
+    border-radius: 5rem;
+    outline: none;
+    border: .1rem solid #d1d1d1;
+    font-size: 1rem;
+    color:#ff5e62;
+}
+
+.form-label {
+    color: #f57a3c;
+    font-weight:600;
+    text-align: center;
+    padding: 0.5rem 0.2rem;
+}
+
+.error-message {
+    color:red;
+    text-align: center;
+    padding: 0.5rem 0.25rem;
+    font-size: 0.8rem;
+}
